@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #bde0fe;
+}
+
+.add-card-btn {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #ffc8dd;
+  color: rgb(21, 20, 20);
+  border: none;
+  border-radius: 4px;
+  margin-left: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+  left: 30%;
+  position: absolute;
+}
+
+.add-card-btn:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.animate__animated.animate__bounce {
+  text-align: center;
+  width: 100%;
+}
