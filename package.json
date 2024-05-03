@@ -17,8 +17,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+<<<<<<< HEAD
     "prebuild": "rimraf docs",
     "build": "react-scripts build && move build docs",
+=======
+    "docs": "react-scripts docs",
+>>>>>>> 0d0d3794b5ac4da80d2d4adce6145723072e6fe0
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
